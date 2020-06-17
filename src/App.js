@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'; 
+import Pokemon from './Pokemon'
 
 import './App.css';
 
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         Pokemon API
       </header>
+      <Pokemon />
 
     </div>
   );
